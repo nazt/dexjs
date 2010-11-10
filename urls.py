@@ -6,7 +6,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Example:
-    # (r'^dexjs/', include('dexjs.foo.urls')),
+    (r'^sendmail$', 'dexjs.mail.views.sendmail'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
